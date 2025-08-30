@@ -1,0 +1,12 @@
+*
+!.gitignore
+!README.md
+!.github/
+!.github/workflows/
+!.github/workflows/release.yml
+
+Дозволяємо все всередині Sviat
+!/Okay/
+!/Okay/Modules/
+!/Okay/Modules/Sviat/
+!/Okay/Modules/Sviat/**
