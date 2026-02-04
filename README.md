@@ -14,8 +14,23 @@
 
 ## Встановлення
 
+### Варіант 1: Скачування з GitHub
+
 1. Скачайте останню версію модуля з [останнього релізу на GitHub](https://github.com/devSviat/ProductRatingUpdater-OkayCMS/releases/latest).  
-2. Розпакуйте архів на сервері в каталог: `{OkayCMS_root}/Okay/Modules/`  
+2. Розпакуйте архів на сервері в каталог: `{OkayCMS_root}/Okay/Modules/`
+
+### Варіант 2: Встановлення через Git
+
+1. Виконайте команду в директорії `{OkayCMS_root}/Okay/Modules/Sviat`:
+   ```bash
+   git clone https://github.com/devSviat/ProductRatingUpdater-OkayCMS.git ProductRatingUpdater
+   ```
+### Результат встановлення
+
+Шлях до модуля має бути таким:
+   ```bash
+   {OkayCMS_root}/Okay/Modules/Sviat/ProductRatingUpdater/
+   ```  
 
 ## Ліцензія
 

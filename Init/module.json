@@ -1,9 +1,10 @@
 {
   "Okay": "4.5.2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Product Rating Updater",
   "description": "Модуль для оновлення рейтингу та кількості голосів товарів",
   "vendor": {
+    "email": "devsviat@proton.me",
     "site": "https://github.com/devSviat"
   }
 }
