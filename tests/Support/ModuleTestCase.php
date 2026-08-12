@@ -1,6 +1,6 @@
 <?php
 
-namespace Support;
+namespace Modules\Sviat\ProductRatingUpdater\Support;
 
 use Okay\Core\Database;
 use Okay\Core\EntityFactory;

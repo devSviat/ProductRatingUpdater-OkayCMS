@@ -11,7 +11,7 @@ use PHPUnit\Framework\Attributes\DataProvider;
 
 require_once __DIR__ . '/Support/ModuleTestCase.php';
 
-use Support\ModuleTestCase;
+use Modules\Sviat\ProductRatingUpdater\Support\ModuleTestCase;
 
 /**
  * Масове проставляння рейтингів товарам. Метод збирає UPDATE конкатенацією
