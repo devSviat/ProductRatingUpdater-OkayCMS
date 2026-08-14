@@ -26,7 +26,7 @@ class BackendProductRatingUpdaterHelper
     /**
      * Оновлення товарів з можливістю вказати діапазон рейтингу та голосів
      *
-     * @param bool $onlyMissing
+     * @param bool $onlyMissing - оновлювати тільки товари без рейтингу/голосів
      * @param float|null $ratingMin
      * @param float|null $ratingMax
      * @param int|null $votesMin
@@ -40,9 +40,10 @@ class BackendProductRatingUpdaterHelper
         ?int $votesMin = null,
         ?int $votesMax = null
     ): int {
-
+        // Формуємо SQL
         $sql = $this->queryFactory->newSqlQuery();
 
+        // Конструкція CASE WHEN для рандомних значень
         $ratingExpr = '5.0';
         if ($ratingMin !== null && $ratingMax !== null) {
             $ratingExpr = "({$ratingMin} + RAND() * ({$ratingMax} - {$ratingMin}))";
