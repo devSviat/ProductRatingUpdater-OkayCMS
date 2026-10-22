@@ -1,6 +1,6 @@
 {
-  "Okay": "4.5.2",
-  "version": "1.0.2",
+  "Okay": "4.5.3",
+  "version": "1.0.3",
   "name": "Product Rating Updater",
   "description": "Модуль для оновлення рейтингу та кількості голосів товарів",
   "vendor": {
